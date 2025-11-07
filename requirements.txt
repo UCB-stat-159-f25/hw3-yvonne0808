@@ -1,0 +1,6 @@
+mystmd
+numpy
+scipy
+matplotlib
+pytest
+ligotools

@@ -1,0 +1,33 @@
+version: 1
+# myst.yml
+project:
+  title: "LIGO Lab Notebook – GW150914"
+  author: "Yvonne Ye"
+  description: "Exploring LIGO gravitational wave event GW150914"
+  github: "https://github.com/yvonne0808/hw3-yvonne0808"
+
+# The site URL (update with your GitHub username)
+site:
+  url: "https://yvonne0808.github.io/hw3-yvonne0808"
+  favicon: "favicon.ico"
+
+# Launch buttons (for Binder)
+launch_buttons:
+
+  binderhub_url: "https://mybinder.org"
+  notebook_interface: "jupyterlab"
+  thebe: false 
+
+# Table of contents (controls which pages show)
+toc:
+  entries:
+    - file: README
+      title: "Home"
+    - file: LOSC_Event_tutorial
+      title: "Main Notebook"
+
+# Options
+html:
+  use_repository_button: true
+  use_issues_button: false
+  use_edit_page_button: false

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools >= 70", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+authors = [
+    { name = "LIGO Scientific Collaboration (LSC) and Yvonne Ye", email = "yvonneye@berkeley.edu" },
+]
+description = "Tools for analyzing and visualizing LIGO gravitational wave data"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy >= 2.0",
+    "scipy >= 1.13",
+    "h5py >= 3.12",
+    "matplotlib >= 3.9",
+    "ipykernel >= 6.29"
+]
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["LIGO", "gravitational waves", "signal processing", "ligotools"]
+dynamic = ["version"]
+
+[tool.setuptools]
+# only include the ligotools package — exclude everything else
+packages = ["ligotools"]
+
+[project.urls]
+Homepage = "https://github.com/yvonne0808/hw3-yvonne0808"
+Issues = "https://github.com/yvonne0808/hw3-yvonne0808/issues"

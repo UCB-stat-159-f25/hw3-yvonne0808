@@ -1,0 +1,2 @@
+I used ChatGPT (OpenAI GPT-5) to help me understand some parts of the assignment instructions, 
+like how to edit the Makefile, set up pyproject.toml, and fix path or import errors in the notebook. 
